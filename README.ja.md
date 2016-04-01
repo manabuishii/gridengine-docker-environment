@@ -134,4 +134,20 @@ end
 http://markmail.org/thread/k6ohon3daqzoghbg#query:+page:1+mid:eobw2jyzzpb4lewe+state:results
 
  During installation yof SGE ou can configure SGE to use the FQDN or only the hostname. Maybe it's related to this.
- 
+
+
+# test kitchen
+
+マシンを起動する
+
+```
+kitchen converge master1-ubuntu-1404
+kitchen converge exec1-ubuntu-1404
+kitchen converge exec2-ubuntu-1404
+```
+
+テストする
+
+```
+kitchen veriry master1-ubuntu-1404
+```
