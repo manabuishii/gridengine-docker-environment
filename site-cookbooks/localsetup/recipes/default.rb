@@ -19,6 +19,11 @@ hostsfile_entry '192.168.33.20' do
   aliases ['exec1']
   unique    true
 end
+hostsfile_entry '192.168.33.22' do
+  hostname  'exec2.devops.test'
+  aliases ['exec2']
+  unique    true
+end
 bash "setuphostname" do
   code "hostname #{node.localsetup.hostname}"
   action :run
