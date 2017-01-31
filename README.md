@@ -1,4 +1,4 @@
-howto
+# HOWTO
 
 vagrant up zabbix
 vagrant up web
