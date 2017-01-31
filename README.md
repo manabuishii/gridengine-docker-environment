@@ -1,7 +1,9 @@
 # HOWTO
 
+```
 vagrant up zabbix
 vagrant up web
+```
 
 ```
 $ cat dockertest.sh
