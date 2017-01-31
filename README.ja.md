@@ -57,11 +57,12 @@ end
 ```
 
 # TODO
-[ ] apt
-[ ] ubuntu-change-source-list
-[ ] gengine
-[ ] clustering
-[ ] test
+
+- [ ] apt
+- [ ] ubuntu-change-source-list
+- [ ] gengine
+- [ ] clustering
+- [ ] test
 
 # 起動
 
