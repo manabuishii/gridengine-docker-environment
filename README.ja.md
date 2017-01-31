@@ -1,21 +1,51 @@
 # 必要なもの
 
+## test kitchen
+
+2017-01-31 以下のような環境ではうまくうごいている
+
+chef-dk 1.1.16 を入れている
+
+`chef -v` の出力結果より
+
+|Software|Version|
+| ---- | ---- |
+|Chef Development Kit Version|1.1.16|
+|chef-client version|12.17.44|
+|delivery version|master (83358fb62c0f711c70ad5a81030a6cae4017f103)|
+|berks version|5.2.0|
+|kitchen version|1.14.2|
+
+vagrant の plugin
+
+|Software|Version|
+| ---- | ---- |
+|vagrant-cachier|1.2.1|
+|vagrant-chef-zero|2.0.0|
+|vagrant-omnibus|1.4.1|
+|vagrant-proxyocnf|1.5.2|
+|vagrant-share|1.1.5, system|
+
+## Vagrant
+
 vagrantのpluginでホスト名をうまく解決してくれるやつ
 * [vagrant-hostmanager](https://github.com/jyokyoku/vagrant-hostmanager)
 * [vagrant-cachier](https://github.com/fgrehm/vagrant-cachier)
+
+
 
 ## chef-zero
 
 試した時は
 
-|software|version|
+|Software|Version|
 | ---- | ---- |
 |vagrant-chef-zero|1.0.1|
 |chef-zero|4.3.2|
 
 # cache とか
 
-|software|version|
+|Software|Version|
 | ---- | ---- |
 |vagrant-cachier|1.2.1|
 |vagrant-omnibus|1.4.1|
