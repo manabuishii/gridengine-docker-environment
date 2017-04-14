@@ -25,7 +25,7 @@ hostsfile_entry '192.168.33.22' do
   unique    true
 end
 bash "setuphostname" do
-  code "hostname #{node.localsetup.hostname}"
+  code "hostname #{node[:localsetup][:hostname]}"
   action :run
 end
 docker_installation_script 'default' do

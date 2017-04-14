@@ -28,7 +28,7 @@ suites:
       - recipe[ubuntu-change-source-list]
       - recipe[apt]
       - recipe[localsetup]
-      - recipe[timezone-ii]
+      - recipe[timezone_lwrp]
       - recipe[gengine]
     attributes:
       localsetup:
@@ -63,7 +63,7 @@ suites:
       - recipe[ubuntu-change-source-list]
       - recipe[apt]
       - recipe[localsetup]
-      - recipe[timezone-ii]
+      - recipe[timezone_lwrp]
       - recipe[gengine]
     attributes:
       localsetup:
@@ -86,7 +86,7 @@ suites:
       - recipe[ubuntu-change-source-list]
       - recipe[apt]
       - recipe[localsetup]
-      - recipe[timezone-ii]
+      - recipe[timezone_lwrp]
       - recipe[gengine]
     attributes:
       localsetup:
