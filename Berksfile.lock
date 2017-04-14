@@ -1,0 +1,24 @@
+DEPENDENCIES
+  apt
+  docker
+  gengine
+    git: https://github.com/manabuishii/gengine-chef-cookbook.git
+    revision: b246317baf675e2ad51cd238119e222e63462bd9
+  hostsfile
+  localsetup
+    path: site-cookbooks/localsetup
+  timezone_lwrp (= 0.1.10)
+  ubuntu-change-source-list
+    git: https://github.com/ywjno/ubuntu-change-source-list.git
+    revision: 3787c4850d50656905f2493adf660e039e2439b7
+
+GRAPH
+  apt (6.1.0)
+  docker (2.15.2)
+  gengine (0.6.0)
+  hostsfile (2.4.5)
+  localsetup (0.1.0)
+    docker (~> 2.0)
+    hostsfile (>= 0.0.0)
+  timezone_lwrp (0.1.10)
+  ubuntu-change-source-list (0.1610.1)
